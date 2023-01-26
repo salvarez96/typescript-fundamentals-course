@@ -1,3 +1,5 @@
+// @ts-check
+
 (()=> {
   const myCart = [];
   const products = [];
