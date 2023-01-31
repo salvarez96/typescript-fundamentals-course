@@ -1,22 +1,22 @@
 (() => {
-  type data = {
+  type Data = {
     email: string,
     password: string,
     age?: number
   }
 
-  const data1: data = {
+  const data1: Data = {
     email: 'someone@something.lol',
     password: 'someone'
   }
 
-  const data2: data = {
+  const data2: Data = {
     email: 'someone.else@something.else.lmao',
     password: 'someone again',
     age: 69
   }
 
-  const login = (data: data) => {
+  const login = (data: Data) => {
     const {email, password, age} = data;
     console.log(email);
     console.log(password);
